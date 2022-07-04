@@ -1,0 +1,3 @@
+1656426930:asoler:root::/dev/tty1:37:100
+/home/asoler
+/usr/bin/ssh -E /home/asoler/log

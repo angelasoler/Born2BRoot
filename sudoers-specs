@@ -1,0 +1,19 @@
+# Authentication using sudo has to be limited to 3 attempts in the event of an incorrect password
+Defaults	passwd_tries=3
+
+# A custom message of your choice most be displayed if an error due to a wrong
+# password accurs when using sudo
+Defaults	badpass_message="Sorry dude, wrong password! Try again... Att. admin"
+
+# Each action using sudo has to be archived, both inpits and outputs. 
+# The log file has to be saved in the /var/log/sudo/ folder
+Defaults	log_input, log_output
+Defaults	logfile=/var/log/sudo/sudo.log
+Defaults	maxseq=1000
+#Defaults	iolog_dir=/var/log/sudo/
+
+# The TTY mode has to be enabled for security reasons
+Defaults	requiretty
+
+# Fot security reasons too, the paths that can be used by sudo must be restricted
+Defaults	secure_path="/usr/local/sbin:/usr/local/bin:/usr/bin:/sbin:/bin:/snap/bin"

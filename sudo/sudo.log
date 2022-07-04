@@ -1,0 +1,255 @@
+Jun 21 09:35:19 : root : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=000001 ;
+    COMMAND=/usr/bin/echo blabla
+Jun 21 09:39:33 : root : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=000002 ;
+    COMMAND=/sbin/visudo /etc/sudoers.d/sudoers-specs
+Jun 21 09:40:19 : root : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=000003 ;
+    COMMAND=/sbin/visudo /etc/sudoers.d/sudoers-specs
+Jun 21 09:49:28 : root : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=000001 ;
+    COMMAND=/sbin/shutdown now
+Jun 21 09:56:32 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=000002
+    ; COMMAND=/usr/bin/systemctl enable cron
+Jun 21 09:57:01 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=000003
+    ; COMMAND=/sbin/shutdown now
+Jun 21 10:02:51 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=000004
+    ; COMMAND=/usr/bin/systemctl stop cron
+Jun 21 10:55:08 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=000005
+    ; COMMAND=/usr/bin/systemctl status cron
+Jun 23 08:55:41 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=000006
+    ; COMMAND=/sbin/visudo /etc/sudoers.d/sudoers-specs
+Jun 23 09:01:34 : root : TTY=tty1 ; PWD=/var/log/sudo ; USER=root ; TSID=000001
+    ; COMMAND=/sbin/lvdisplay
+Jun 23 09:11:17 : root : TTY=tty1 ; PWD=/var/log/sudo ; USER=root ; TSID=000002
+    ; COMMAND=/sbin/lvdisplay
+Jun 23 09:17:00 : root : TTY=tty1 ; PWD=/var/log/sudo ; USER=root ; TSID=000003
+    ; COMMAND=/usr/bin/less lvdisplay
+Jun 23 09:28:24 : root : TTY=tty1 ; PWD=/var/log/sudo ; USER=root ; TSID=000004
+    ; COMMAND=/sbin/reboot
+Jun 23 09:53:15 : asoler : TTY=pts/0 ; PWD=/ ; USER=root ; TSID=000005 ;
+    COMMAND=/usr/bin/du -hs
+Jun 23 17:07:08 : asoler : TTY=pts/1 ; PWD=/home/asoler ; USER=root ;
+    TSID=000006 ; COMMAND=/usr/bin/du -hs /
+Jun 23 17:53:30 : asoler : TTY=pts/1 ; PWD=/home/asoler ; USER=root ;
+    TSID=000007 ; COMMAND=/sbin/fdisk -l
+Jun 23 17:55:07 : asoler : TTY=pts/1 ; PWD=/home/asoler ; USER=root ;
+    TSID=000008 ; COMMAND=/sbin/service ssh status
+Jun 23 17:58:04 : asoler : TTY=pts/1 ; PWD=/home/asoler ; USER=root ;
+    TSID=000009 ; COMMAND=/sbin/fdisk -l
+Jun 23 18:20:24 : asoler : TTY=pts/0 ; PWD=/home/asoler ; USER=root ;
+    TSID=00000A ; COMMAND=/sbin/lvdisplay
+Jun 23 19:08:55 : asoler : TTY=pts/0 ; PWD=/home/asoler ; USER=root ;
+    TSID=00000B ; COMMAND=/sbin/lvdisplay
+Jun 23 19:09:02 : asoler : TTY=pts/0 ; PWD=/home/asoler ; USER=root ;
+    TSID=00000C ; COMMAND=/sbin/lvdisplay
+Jun 23 19:09:21 : asoler : TTY=pts/0 ; PWD=/home/asoler ; USER=root ;
+    TSID=00000D ; COMMAND=/sbin/lvdisplay
+Jun 23 19:09:25 : asoler : TTY=pts/0 ; PWD=/home/asoler ; USER=root ;
+    TSID=00000E ; COMMAND=/sbin/lvdisplay
+Jun 23 19:09:43 : asoler : TTY=pts/0 ; PWD=/home/asoler ; USER=root ;
+    TSID=00000F ; COMMAND=/sbin/lvdisplay
+Jun 24 07:56:26 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=00000G
+    ; COMMAND=/usr/bin/systemctl status cron
+Jun 24 08:03:34 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=00000H
+    ; COMMAND=/usr/bin/systemctl stop cron
+Jun 24 08:25:58 : root : TTY=tty1 ; PWD=/root ; USER=root ; TSID=00000I ;
+    COMMAND=/sbin/service ssh restart
+Jun 24 08:26:02 : root : TTY=tty1 ; PWD=/root ; USER=root ; TSID=00000J ;
+    COMMAND=/sbin/service ssh status
+Jun 24 09:29:31 : root : TTY=pts/1 ; PWD=/root ; USER=root ; TSID=00000K ;
+    COMMAND=/usr/bin/su -hs
+Jun 24 09:29:39 : root : TTY=pts/1 ; PWD=/root ; USER=root ; TSID=00000L ;
+    COMMAND=/usr/bin/du -hs
+Jun 24 09:30:17 : root : TTY=pts/1 ; PWD=/root ; USER=root ; TSID=00000M ;
+    COMMAND=/usr/bin/du -hs
+Jun 24 09:30:22 : root : TTY=pts/1 ; PWD=/root ; USER=root ; TSID=00000N ;
+    COMMAND=/usr/bin/du -hs
+Jun 24 09:30:35 : root : TTY=pts/1 ; PWD=/root ; USER=root ; TSID=00000O ;
+    COMMAND=/usr/bin/du -hs
+Jun 24 09:31:23 : root : TTY=pts/1 ; PWD=/root ; USER=root ; TSID=00000P ;
+    COMMAND=/usr/bin/du -hs /
+Jun 24 16:53:02 : root : TTY=tty1 ; PWD=/root ; USER=root ; TSID=00000Q ;
+    COMMAND=/sbin/reboot
+Jun 24 16:54:44 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=00000R
+    ; COMMAND=/usr/bin/systemctl stop cron
+Jun 27 13:04:00 : asoler : TTY=pts/0 ; PWD=/home/asoler ; USER=root ;
+    TSID=00000S ; COMMAND=/usr/bin/gpasswd -d asoler asoler
+Jun 28 08:42:05 : asoler : TTY=pts/0 ; PWD=/home/asoler ; USER=root ;
+    TSID=00000T ; COMMAND=/sbin/adduser nodejs
+Jun 28 08:42:27 : asoler : TTY=pts/0 ; PWD=/home/asoler ; USER=root ;
+    TSID=00000U ; COMMAND=/usr/bin/passwd nodejs
+Jun 28 08:42:50 : asoler : TTY=pts/0 ; PWD=/home/asoler ; USER=root ;
+    TSID=00000V ; COMMAND=/usr/bin/chage -l nodejs
+Jun 28 08:43:18 : asoler : TTY=pts/0 ; PWD=/home/asoler ; USER=root ;
+    TSID=00000W ; COMMAND=/usr/bin/passwd nodejs
+Jun 28 08:47:14 : asoler : TTY=pts/0 ; PWD=/home/asoler ; USER=root ;
+    TSID=00000X ; COMMAND=/usr/bin/chage -l nodejs
+Jun 28 08:47:19 : asoler : TTY=pts/0 ; PWD=/home/asoler ; USER=root ;
+    TSID=00000Y ; COMMAND=/usr/bin/passwd nodejs
+Jun 28 08:51:16 : asoler : TTY=pts/0 ; PWD=/root ; USER=root ; TSID=00000Z ;
+    COMMAND=/bin/bash --login -c nodejs
+Jun 28 08:52:54 : asoler : TTY=pts/0 ; PWD=/root ; USER=root ; TSID=000010 ;
+    COMMAND=/bin/bash --login -c nodejs
+Jun 28 08:56:01 : root : TTY=tty1 ; PWD=/root ; USER=root ; TSID=000011 ;
+    COMMAND=/bin/bash --login -c nodejs
+Jun 28 09:12:24 : angela : TTY=tty1 ; PWD=/home/angela ; USER=root ; TSID=000012
+    ; COMMAND=/usr/bin/echo hello
+Jun 28 09:27:57 : root : TTY=tty1 ; PWD=/root ; USER=root ; TSID=000013 ;
+    COMMAND=/sbin/adduser --shell nodejs
+Jun 28 09:30:02 : root : no tty ; PWD=/root ; USER=root ; COMMAND=/sbin/ifconfig
+Jun 28 09:34:00 : root : TTY=tty1 ; PWD=/root ; USER=root ; TSID=000014 ;
+    COMMAND=/sbin/ifconfig
+Jun 28 10:06:05 : angela : TTY=pts/0 ; PWD=/home/angela ; USER=root ;
+    TSID=000001 ; COMMAND=/usr/bin/echo hello world
+Jun 28 10:32:20 : asoler : TTY=pts/0 ; PWD=/home/asoler ; USER=root ;
+    TSID=000002 ; COMMAND=/usr/bin/echo hello
+Jun 28 10:42:38 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=000003
+    ; COMMAND=/sbin/visudo
+Jun 28 10:49:40 : root : TTY=pts/1 ; PWD=/var/log/sudo ; USER=root ; TSID=000004
+    ; COMMAND=/sbin/ifconfig
+Jun 28 11:05:04 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=000005
+    ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config
+Jun 28 11:05:27 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=000006
+    ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config
+Jun 28 11:06:31 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=000007
+    ; COMMAND=/usr/bin/systemctl restart ssh
+Jun 28 11:08:46 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=000008
+    ; COMMAND=/usr/bin/systemctl status ssh
+Jun 28 11:09:16 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=000009
+    ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config
+Jun 28 11:10:14 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=00000A
+    ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config
+Jun 28 11:12:29 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=00000B
+    ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config
+Jun 28 11:12:50 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=00000C
+    ; COMMAND=/usr/bin/systemctl restart ssh
+Jun 28 11:13:06 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=00000D
+    ; COMMAND=/usr/bin/systemctl restart ssh
+Jun 28 11:13:42 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=00000E
+    ; COMMAND=/usr/bin/systemctl restart ssh
+Jun 28 11:13:46 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=00000F
+    ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config
+Jun 28 11:14:05 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=00000G
+    ; COMMAND=/usr/bin/systemctl restart ssh
+Jun 28 11:14:32 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=00000H
+    ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config
+Jun 28 11:14:55 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=00000I
+    ; COMMAND=/sbin/reboot
+Jun 28 11:16:49 : asoler : a password is required ; TTY=tty1 ; PWD=/home/asoler
+    ; USER=root ; COMMAND=/usr/bin/systemctl status
+Jun 28 11:16:58 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=00000J
+    ; COMMAND=/usr/bin/systemctl status ssh
+Jun 28 11:18:13 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=00000K
+    ; COMMAND=/usr/bin/systemctl stop ssh
+Jun 28 11:18:17 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=00000L
+    ; COMMAND=/usr/bin/systemctl status ssh
+Jun 28 11:18:21 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=00000M
+    ; COMMAND=/usr/bin/systemctl start ssh
+Jun 28 11:18:26 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=00000N
+    ; COMMAND=/usr/bin/systemctl enable ssh
+Jun 28 11:18:34 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=00000O
+    ; COMMAND=/usr/bin/systemctl status ssh
+Jun 28 11:19:07 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=00000P
+    ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config
+Jun 28 11:19:43 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=00000Q
+    ; COMMAND=/usr/bin/systemctl status ssh
+Jun 28 11:19:57 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=00000R
+    ; COMMAND=/usr/bin/systemctl status sshd
+Jun 28 11:20:09 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=00000S
+    ; COMMAND=/usr/bin/systemctl start sshd
+Jun 28 11:20:32 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=00000T
+    ; COMMAND=/usr/bin/systemctl status ssh.service
+Jun 28 11:21:42 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=00000U
+    ; COMMAND=/usr/bin/systemctl status ssh.service
+Jun 28 11:23:19 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=00000V
+    ; COMMAND=/usr/bin/systemctl restart ssh.service
+Jun 28 11:24:32 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=00000W
+    ; COMMAND=/sbin/shutdown now
+Jun 28 11:27:06 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=00000X
+    ; COMMAND=/usr/bin/systemctl status ssh
+Jun 28 11:28:47 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=00000Y
+    ; COMMAND=/usr/bin/systemctl status ssh
+Jun 28 11:32:15 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=00000Z
+    ; COMMAND=/usr/bin/systemctl stop sshd.socket
+Jun 28 11:32:24 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=000010
+    ; COMMAND=/usr/bin/systemctl stop sshd.service
+Jun 28 11:32:31 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=000011
+    ; COMMAND=/usr/bin/systemctl stop sshd.service
+Jun 28 11:32:48 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=000012
+    ; COMMAND=/usr/bin/ssh -d
+Jun 28 11:33:10 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=000013
+    ; COMMAND=/usr/bin/ssh -E
+Jun 28 11:34:45 : asoler : TTY=tty1 ; PWD=/usr/bin ; USER=root ; TSID=000014 ;
+    COMMAND=/usr/bin/ssh -ddd
+Jun 28 11:34:54 : asoler : TTY=tty1 ; PWD=/usr/bin ; USER=root ; TSID=000015 ;
+    COMMAND=/usr/bin/ss -ddd
+Jun 28 11:35:30 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=000016
+    ; COMMAND=/usr/bin/ssh -E /home/asoler/log
+Jun 28 11:36:12 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=000017
+    ; COMMAND=/usr/bin/ssh -t
+Jun 28 11:38:05 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=000018
+    ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config.d/
+Jun 28 11:41:14 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=000019
+    ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config
+Jun 28 11:41:58 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=00001A
+    ; COMMAND=/usr/bin/systemctl restart ssh
+Jun 28 11:42:05 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=00001B
+    ; COMMAND=/usr/bin/systemctl status ssh
+Jun 28 11:42:17 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=00001C
+    ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config
+Jun 28 11:42:36 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=00001D
+    ; COMMAND=/usr/bin/systemctl restart ssh
+Jun 28 11:42:39 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=00001E
+    ; COMMAND=/usr/bin/systemctl status ssh
+Jun 28 11:50:40 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=00001F
+    ; COMMAND=/usr/bin/nano /etc/login.defs
+Jun 28 12:34:58 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=00001G
+    ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config
+Jun 28 12:38:15 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=00001H
+    ; COMMAND=/usr/bin/echo sscsdc
+Jun 28 12:39:02 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=00001I
+    ; COMMAND=/usr/bin/systemctl restart ssh
+Jun 28 12:39:25 : asoler : TTY=pts/0 ; PWD=/home/asoler ; USER=root ;
+    TSID=00001J ; COMMAND=/usr/bin/echo teste
+Jun 28 12:39:54 : asoler : TTY=pts/0 ; PWD=/home/asoler ; USER=root ;
+    TSID=00001K ; COMMAND=/sbin/userdel angela
+Jun 28 12:57:27 : asoler : TTY=pts/0 ; PWD=/home/asoler ; USER=root ;
+    TSID=00001L ; COMMAND=/sbin/delgroup asoler
+Jun 28 12:59:18 : asoler : TTY=pts/0 ; PWD=/home/asoler ; USER=root ;
+    TSID=00001M ; COMMAND=/sbin/adduser -ingroup angela user42
+Jun 28 12:59:26 : asoler : TTY=pts/0 ; PWD=/home/asoler ; USER=root ;
+    TSID=00001N ; COMMAND=/sbin/adduser -ingroup user42 angela
+Jun 28 13:00:41 : asoler : TTY=pts/0 ; PWD=/home/asoler ; USER=root ;
+    TSID=00001O ; COMMAND=/usr/bin/passwd angela
+Jun 28 13:06:36 : asoler : TTY=pts/0 ; PWD=/home/asoler ; USER=root ;
+    TSID=00001P ; COMMAND=/sbin/userdel angela
+Jun 28 13:06:59 : asoler : TTY=pts/0 ; PWD=/home/asoler ; USER=root ;
+    TSID=00001Q ; COMMAND=/usr/bin/passwd asoler
+Jun 28 13:07:58 : asoler : TTY=pts/0 ; PWD=/home/asoler ; USER=root ;
+    TSID=00001R ; COMMAND=/usr/bin/chage -l root
+Jun 28 13:08:04 : asoler : TTY=pts/0 ; PWD=/home/asoler ; USER=root ;
+    TSID=00001S ; COMMAND=/usr/bin/passwd root
+Jun 28 13:10:54 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=00001T
+    ; COMMAND=/sbin/shutdown now
+Jun 29 10:03:40 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=00001U
+    ; COMMAND=/sbin/visudo
+Jun 29 10:04:38 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=00001V
+    ; COMMAND=/sbin/visudo /etc/sudoers.d/sudoers-specs
+Jun 29 10:07:28 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=00001W
+    ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config
+Jun 29 10:09:42 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=00001X
+    ; COMMAND=/usr/bin/systemctl reload ssh
+Jun 29 10:09:48 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=00001Y
+    ; COMMAND=/usr/bin/systemctl status ssh
+Jun 29 10:11:06 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=00001Z
+    ; COMMAND=/usr/bin/bash /home/root/monitoring.sh
+Jun 29 10:11:37 : asoler : TTY=tty1 ; PWD=/home ; USER=root ; TSID=000020 ;
+    COMMAND=/usr/bin/rm -rf viinicius/ lost+found/ nodejs/
+Jun 29 10:11:51 : asoler : TTY=tty1 ; PWD=/home ; USER=root ; TSID=000021 ;
+    COMMAND=/usr/bin/rm -rf angela/
+Jun 29 10:12:35 : asoler : TTY=tty1 ; PWD=/ ; USER=root ; TSID=000022 ;
+    COMMAND=/usr/bin/ls lost+found/
+Jun 29 10:12:43 : asoler : TTY=tty1 ; PWD=/ ; USER=root ; TSID=000023 ;
+    COMMAND=/usr/bin/rm -rf lost+found/
+Jun 29 10:14:40 : asoler : TTY=tty1 ; PWD=/ ; USER=root ; TSID=000024 ;
+    COMMAND=/sbin/shutdown now
+Jul  4 14:42:54 : asoler : TTY=tty1 ; PWD=/home/asoler ; USER=root ; TSID=000025
+    ; COMMAND=/usr/bin/apt install git
