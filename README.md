@@ -18,8 +18,10 @@
 💠 SSH UFW services configurations
 
 💠 SUDO and PAM configurations with focus on security
-    💠 Password policy
-    💠 User management
+  
+          💠 Password policy
+  
+          💠 User permissions management
 
 💠 Shell commands for monitoring harware and softeware
 
