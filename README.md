@@ -23,7 +23,7 @@
 
 💠 Shell commands for monitoring harware and softeware
 
-💠 LVM(Logic Volume Managment)
+💠 LVM
 
 💠 APT
 
