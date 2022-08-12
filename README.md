@@ -5,7 +5,7 @@
 </h1>
 
 <p align="center">
-     ~~~~~~~   Setting a debian linux server from beginning. Basics concepts of linux file system for server configurations.   ~~~~~~
+     ~~~~~~~   Basics concepts of linux file system for server configurations.   ~~~~~~
 </p>
 
 <h3>Subjects studied:</h3>
