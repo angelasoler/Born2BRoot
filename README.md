@@ -23,12 +23,12 @@
   
           💠 User permissions management
 
-💠 Shell commands for monitoring harware and softeware
+💠 Shell commands for monitoring harware and software
 
 💠 LVM
 
 💠 APT
-
+ 
 </p>
 
 <h2  align="center">:wave: Contact me</h2>
@@ -39,3 +39,7 @@
     <a href="https://www.linkedin.com/in/angela-soler-982753212/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   </p>
 </p>
+
+
+
+`TODO -> utils command readme`
